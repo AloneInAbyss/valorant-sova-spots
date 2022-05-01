@@ -1,0 +1,13 @@
+.polaroid,
+.polaroid-disabled {
+  max-height: 250px;
+}
+
+.polaroid:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.polaroid-disabled {
+  filter: grayscale(100%);
+}
