@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import Container from 'react-bootstrap/Container';
@@ -13,10 +12,15 @@ function App() {
       <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
       <Row className="py-5 valorant-maps-section">
         <Col className="d-flex justify-content-center">
-          <Polaroid src="img/map_breeze.webp" name="Breeze" />
+          <Polaroid src="img/map_breeze.webp" name="Breeze" link="/breeze" />
         </Col>
         <Col className="d-flex justify-content-center">
-          <Polaroid src="img/map_ascent.webp" name="Ascent" disabled />
+          <Polaroid
+            src="img/map_ascent.webp"
+            name="Ascent"
+            link="/ascent"
+            disabled
+          />
         </Col>
       </Row>
     </Container>

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './Polaroid.css';
 
 function Polaroid(props: any) {
@@ -17,12 +19,12 @@ function Polaroid(props: any) {
   }
 
   return (
-    <div>
+    <Link className="link" to={props.link}>
       <img src={props.src} className="polaroid img-thumbnail" alt="" />
       <div>
         <p className="text-center h4 my-2">{props.name}</p>
       </div>
-    </div>
+    </Link>
   );
 }
 
