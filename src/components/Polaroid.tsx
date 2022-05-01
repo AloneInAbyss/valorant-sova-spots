@@ -5,24 +5,20 @@ import './Polaroid.css';
 function Polaroid(props: any) {
   if (props.disabled) {
     return (
-      <div>
-        <img
-          src={props.src}
-          className="polaroid-disabled img-thumbnail"
-          alt=""
-        />
+      <div className="polaroid-disabled">
+        <img src={props.src} alt="" />
         <div>
-          <p className="text-center h4 my-2">{props.name}</p>
+          <p className="text-center h4 py-3">{props.name}</p>
         </div>
       </div>
     );
   }
 
   return (
-    <Link className="link" to={props.link}>
-      <img src={props.src} className="polaroid img-thumbnail" alt="" />
+    <Link className="polaroid" to={props.link}>
+      <img src={props.src} alt="" />
       <div>
-        <p className="text-center h4 my-2">{props.name}</p>
+        <p className="text-center h4 py-3">{props.name}</p>
       </div>
     </Link>
   );

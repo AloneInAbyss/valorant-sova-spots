@@ -11,14 +11,30 @@ function App() {
     <Container className="text-white">
       <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
       <Row className="py-5 valorant-maps-section">
-        <Col className="d-flex justify-content-center">
+        <Col>
           <Polaroid src="img/map_breeze.webp" name="Breeze" link="/breeze" />
         </Col>
-        <Col className="d-flex justify-content-center">
+        <Col>
           <Polaroid
             src="img/map_ascent.webp"
             name="Ascent"
             link="/ascent"
+            disabled
+          />
+        </Col>
+        <Col>
+          <Polaroid
+            src="img/map_fracture.webp"
+            name="Fracture"
+            link="/fracture"
+            disabled
+          />
+        </Col>
+        <Col>
+          <Polaroid
+            src="img/map_icebox.webp"
+            name="Icebox"
+            link="/icebox"
             disabled
           />
         </Col>

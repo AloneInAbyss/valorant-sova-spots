@@ -1,6 +1,11 @@
 .polaroid,
-.polaroid-disabled {
-  max-height: 250px;
+.polaroid-disabled,
+.polaroid:hover,
+.polaroid:visited {
+  text-decoration: none;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .polaroid:hover {
@@ -12,9 +17,12 @@
   filter: grayscale(100%);
 }
 
-.link,
-.link:hover,
-.link:visited {
-  text-decoration: none;
-  color: white;
+.polaroid img,
+.polaroid-disabled img {
+  max-height: 250px;
+}
+
+.polaroid p,
+.polaroid-disabled p {
+  background-color: #0e1923;
 }
