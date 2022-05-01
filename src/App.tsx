@@ -8,8 +8,9 @@ import Polaroid from './components/Polaroid';
 
 function App() {
   return (
-    <Container className="text-white">
+    <Container>
       <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
+
       <Row className="py-5 valorant-maps-section">
         <Col>
           <Polaroid src="img/map_breeze.webp" name="Breeze" link="/breeze" />

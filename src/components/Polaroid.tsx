@@ -14,13 +14,24 @@ function Polaroid(props: any) {
     );
   }
 
+  if (props.link) {
+    return (
+      <Link className="polaroid link" to={props.link}>
+        <img src={props.src} alt="" />
+        <div>
+          <p className="text-center h4 py-3">{props.name}</p>
+        </div>
+      </Link>
+    );
+  }
+
   return (
-    <Link className="polaroid" to={props.link}>
+    <div className="polaroid">
       <img src={props.src} alt="" />
       <div>
         <p className="text-center h4 py-3">{props.name}</p>
       </div>
-    </Link>
+    </div>
   );
 }
 

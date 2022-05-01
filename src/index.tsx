@@ -17,7 +17,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/breeze" element={<Map />} />
+        <Route path="/breeze" element={<Map name="Breeze" />} />
       </Routes>
     </BrowserRouter>
     ,
