@@ -9,10 +9,9 @@
   justify-content: start;
 }
 
-h2 {
-  border-bottom: 2px solid white;
-}
-
 h3 {
   color: #0e1923;
+  display: block;
+  width: 100%;
+  text-align: center;
 }

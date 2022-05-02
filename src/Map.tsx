@@ -21,13 +21,19 @@ function Map(props: any) {
         <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
 
         <Row className="py-5 valorant-maps-section">
-          <h2 className="h1 ps-5 pb-4 mb-5">{props.name}</h2>
+          <h2 className="h1 ps-5 mb-5">{props.name}</h2>
+          <Row className="d-flex flex-row bg-white m-0 py-3 mb-3">
+            <Col className="">
+              <h3 className="h2">Ataque</h3>
+            </Col>
+            <Col className="">
+              <h3 className="h2">Defesa</h3>
+            </Col>
+          </Row>
           <Col onClick={handleShow}>
-            <h3 className="h2">Ataque</h3>
             <Polaroid src="img/spots/breeze/ataque_01.png" name="Bomb B" />
           </Col>
           <Col>
-            <h3 className="h2">Defesa</h3>
             <Polaroid src="img/spots/breeze/defesa_01.png" name="Double Door" />
           </Col>
         </Row>
