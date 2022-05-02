@@ -8,7 +8,7 @@ function Polaroid(props: any) {
       <div className="polaroid-disabled">
         <img src={props.src} alt="" />
         <div>
-          <p className="text-center h4 py-3">{props.name}</p>
+          <p className="text-center h4 py-3 m-0">{props.name}</p>
         </div>
       </div>
     );
@@ -19,7 +19,7 @@ function Polaroid(props: any) {
       <Link className="polaroid link" to={props.link}>
         <img src={props.src} alt="" />
         <div>
-          <p className="text-center h4 py-3">{props.name}</p>
+          <p className="text-center h4 py-3 m-0">{props.name}</p>
         </div>
       </Link>
     );
@@ -29,7 +29,7 @@ function Polaroid(props: any) {
     <div className="polaroid">
       <img src={props.src} alt="" />
       <div>
-        <p className="text-center h4 py-3">{props.name}</p>
+        <p className="text-center h4 py-3 m-0">{props.name}</p>
       </div>
     </div>
   );
