@@ -2,24 +2,24 @@ const MapsList = [
   {
     name: 'Breeze',
     link: '/breeze',
-    thumbnail: 'img/map_breeze.webp',
+    thumbnail: 'img/maps/map_breeze.webp',
   },
   {
     name: 'Ascent',
     link: '/ascent',
-    thumbnail: 'img/map_ascent.webp',
+    thumbnail: 'img/maps/map_ascent.webp',
     disabled: true,
   },
   {
     name: 'Fracture',
     link: '/fracture',
-    thumbnail: 'img/map_fracture.webp',
+    thumbnail: 'img/maps/map_fracture.webp',
     disabled: true,
   },
   {
     name: 'Icebox',
     link: '/icebox',
-    thumbnail: 'img/map_icebox.webp',
+    thumbnail: 'img/maps/map_icebox.webp',
     disabled: true,
   },
 ];
