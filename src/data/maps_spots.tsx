@@ -1,5 +1,5 @@
 const MapsSpots = {
-  Breeze: {
+  breeze: {
     attack: [
       {
         name: 'Bomb B',

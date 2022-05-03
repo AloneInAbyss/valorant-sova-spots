@@ -39,7 +39,7 @@ function Map(props) {
             </Col>
           </Row>
           <Col>
-            {MapsSpots[props.name].attack.map((spot) => {
+            {MapsSpots[props.name.toLowerCase()].attack.map((spot) => {
               return (
                 <div onClick={() => handleShow(spot)} key={spot.name}>
                   <Polaroid src={spot.thumbnail} name={spot.name} />
@@ -48,7 +48,7 @@ function Map(props) {
             })}
           </Col>
           <Col>
-            {MapsSpots[props.name].defense.map((spot) => {
+            {MapsSpots[props.name.toLowerCase()].defense.map((spot) => {
               return (
                 <div onClick={() => handleShow(spot)} key={spot.name}>
                   <Polaroid src={spot.thumbnail} name={spot.name} />
