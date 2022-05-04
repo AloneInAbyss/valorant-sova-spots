@@ -21,7 +21,7 @@
   },
   "scripts": {
     "gen": "node generate-spots-data.js",
-    "start": "react-scripts start",
+    "start": "npm run gen && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
