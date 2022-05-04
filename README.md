@@ -7,6 +7,11 @@
 ## Tarefas
 
 - [ ] Criar link para voltar à página inicial
-- [ ] Melhorar o input de arquivos
+- [x] Melhorar o input de arquivos
 - [ ] Adicionar todos os mapas
 - [ ] Hospedar site no GitHub Actions
+
+## Bug Fixes
+
+- [ ] Tirar da pasta *data* os outputs
+- [ ] Atualizar renderização quando não há imagens dos mapas
