@@ -78,7 +78,7 @@ async function writeInfoOnFile(mapsInfo) {
     data += JSON.stringify(mapsInfo, null, 2);
     data += '; export default MapsSpots;';
 
-    fs.writeFileSync('./src/data/maps_spots.tsx', data, 'utf-8');
+    fs.writeFileSync('./src/out/maps_spots.tsx', data, 'utf-8');
   }, 1000);
 }
 

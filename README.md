@@ -13,6 +13,6 @@
 
 ## Bug Fixes
 
-- [ ] Tirar da pasta *data* os outputs
+- [x] Tirar da pasta *data* os outputs
 - [ ] Atualizar renderização quando não há imagens dos mapas
 - [ ] Checar onde dá erro quando a pasta não existe

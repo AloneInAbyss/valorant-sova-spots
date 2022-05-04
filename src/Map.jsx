@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Polaroid from './components/Polaroid';
-import MapsSpots from './data/maps_spots';
+import MapsSpots from './out/maps_spots';
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
