@@ -6,7 +6,7 @@
 
 ## Tarefas
 
-- [ ] Criar link para voltar à página inicial
+- [x] Criar link para voltar à página inicial
 - [x] Melhorar o input de arquivos
 - [ ] Adicionar todos os mapas
 - [ ] Hospedar site no GitHub Actions

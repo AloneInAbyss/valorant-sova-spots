@@ -4,6 +4,14 @@ body {
   color: white;
 }
 
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   background-color: #0e1923;
   min-height: 100vh;

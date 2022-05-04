@@ -10,6 +10,7 @@ import Polaroid from './components/Polaroid';
 import MapsSpots from './data/maps_spots';
 
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Map(props) {
   const [show, setShow] = useState(false);
@@ -26,7 +27,9 @@ function Map(props) {
   return (
     <>
       <Container>
-        <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
+        <Link to="/">
+          <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
+        </Link>
 
         <Row className="py-5 valorant-maps-section">
           <h2 className="display-3 ps-5 mb-5">{props.name}</h2>

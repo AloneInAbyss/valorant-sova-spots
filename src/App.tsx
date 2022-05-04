@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 import Polaroid from './components/Polaroid';
+import { Link } from 'react-router-dom';
 
 function App() {
   let MapsElements = MapsList.map((map: any) => {
@@ -23,7 +24,9 @@ function App() {
 
   return (
     <Container>
-      <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
+      <Link to="/">
+        <h1 className="display-4 text-center py-4">Valorant Sova Spots</h1>
+      </Link>
 
       <Row className="py-5 valorant-maps-section">{MapsElements}</Row>
     </Container>
