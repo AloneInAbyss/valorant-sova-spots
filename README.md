@@ -11,6 +11,7 @@
 - [ ] Adicionar todos os mapas
 - [ ] Colocar créditos e GitHub no rodapé
 - [ ] Hospedar site no GitHub Actions
+- [ ] Comprimir imagens automaticamente
 
 ## Bug Fixes
 
