@@ -7,11 +7,17 @@ const baseDir = path.join(__dirname + '/public/img/spots');
 generateSpotsData(baseDir);
 
 async function generateSpotsData(dir) {
-  const mapsList = await getMapsNames(dir);
+  try {
+    const mapsList = await getMapsNames(dir);
 
-  const mapsInfo = await getMapsInformation(mapsList);
+    const mapsInfo = await getMapsInformation(mapsList);
 
-  await writeInfoOnFile(mapsInfo);
+    await writeInfoOnFile(mapsInfo);
+  } catch (e) {
+    console.log('Error generating maps data: \n' + e);
+    console.log('\n\n\nGenerating default file...');
+    await writeInfoOnFile({});
+  }
 }
 
 async function getMapsNames(dir) {
@@ -84,6 +90,9 @@ async function writeInfoOnFile(mapsInfo) {
 
 async function getDirectoriesNames(dir) {
   // console.log('Reading directories in: ' + dir);
+  if (!fs.existsSync(dir)) {
+    throw new Error(`Directory ${dir} not found`);
+  }
 
   const result = (await fsPromises.readdir(dir, { withFileTypes: true }))
     .filter((dirent) => dirent.isDirectory())

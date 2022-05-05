@@ -2,7 +2,7 @@
 
 ![Imagem do site](https://github.com/AloneInAbyss/valorant-sova-spots/blob/master/public/readme.png)
 
-> As imagens dos spots não estão disponíveis aqui no GitHub
+> As imagens dos spots ainda não estão disponíveis aqui no GitHub
 
 ## Tarefas
 
@@ -15,5 +15,5 @@
 
 - [x] Tirar da pasta *data* os outputs
 - [x] Atualizar renderização quando não há imagens dos mapas
-- [ ] Checar onde dá erro quando a pasta não existe
+- [x] Checar onde dá erro quando a pasta não existe
 - [ ] Criar thumbnail default caso alguma não carregue/exista
