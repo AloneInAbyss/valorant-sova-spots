@@ -9,6 +9,7 @@
 - [x] Criar link para voltar à página inicial
 - [x] Melhorar o input de arquivos
 - [ ] Adicionar todos os mapas
+- [ ] Colocar créditos e GitHub no rodapé
 - [ ] Hospedar site no GitHub Actions
 
 ## Bug Fixes
