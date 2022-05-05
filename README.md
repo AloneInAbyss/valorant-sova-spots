@@ -14,5 +14,6 @@
 ## Bug Fixes
 
 - [x] Tirar da pasta *data* os outputs
-- [ ] Atualizar renderização quando não há imagens dos mapas
+- [x] Atualizar renderização quando não há imagens dos mapas
 - [ ] Checar onde dá erro quando a pasta não existe
+- [ ] Criar thumbnail default caso alguma não carregue/exista

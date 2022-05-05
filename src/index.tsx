@@ -17,6 +17,9 @@ root.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/breeze" element={<Map name="Breeze" />} />
+      <Route path="/ascent" element={<Map name="Ascent" />} />
+      <Route path="/fracture" element={<Map name="Fracture" />} />
+      <Route path="/icebox" element={<Map name="Ice Box" />} />
     </Routes>
   </BrowserRouter>
 );
